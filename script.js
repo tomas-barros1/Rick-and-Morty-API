@@ -18,8 +18,7 @@ button.addEventListener("click", async () => {
     image.setAttribute("src", response.image)
   }
   else {
-    name.innerHTML = "Out of index"
-    image.setAttribute("src", null)
+    name.innerHTML = "Não há personagem com esse ID!"
   }
 })
 
